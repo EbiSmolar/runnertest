@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/ASUS/Desktop/test/build-TestRunner-Desktop_Qt-Debug/TestRunnerTest[1]_tests.cmake")
+  include("C:/Users/ASUS/Desktop/test/build-TestRunner-Desktop_Qt-Debug/TestRunnerTest[1]_tests.cmake")
+else()
+  add_test(TestRunnerTest_NOT_BUILT TestRunnerTest_NOT_BUILT)
+endif()

@@ -1,0 +1,18 @@
+# ninja log v5
+2	292	7253291510685565	CMakeFiles/TestRunner.dir/main.cpp.obj	4addf7ced11699cd
+292	543	7253291513070790	TestRunner.exe	e4eeaf9b54892dd2
+5	586	7253291513630787	CMakeFiles/TestRunnerTest.dir/test.cpp.obj	44cd3198646006b
+31	589	7253291513660786	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	a6385580e5165867
+22	658	7253291514350766	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	dfcc3a4866cc2a39
+19	906	7253291516810767	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj	56943032d3a01fc5
+11	908	7253291516840771	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	938021c86795c5fb
+15	1208	7253291519820778	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/__/__/googletest-src/googletest/src/gtest-all.cc.obj	4f7032cd122c1842
+8	1230	7253291520050768	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/__/__/googletest-src/googletest/src/gtest-all.cc.obj	1d9aa66e8247105b
+1208	1247	7253291520180770	lib/gmock_main.lib	41182080f5ae5877
+27	1254	7253291520300770	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	ea791b6f8959c31f
+1230	1266	7253291520390768	lib/gmock.lib	aa29dd58e943d74b
+1255	1288	7253291520610768	lib/gtest.lib	e39beb122ca72e1f
+1288	1322	7253291520960813	lib/gtest_main.lib	b4a8da54474300b0
+1322	2254	7253291530292159	TestRunnerTest.exe	21808c83771390c
+1322	2254	7253291530292159	TestRunnerTest[1]_tests.cmake	21808c83771390c
+1322	2254	7253291530292159	C:/Users/ASUS/Desktop/test/build-TestRunner-Desktop_Qt-Debug/TestRunnerTest[1]_tests.cmake	21808c83771390c
