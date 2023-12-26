@@ -17,11 +17,13 @@ jobs:
     - name: Configure CMake
       run: cmake -S $GITHUB_WORKSPACE/TestRunner -B ${{runner.workspace}}/build
 
-    - name: Build
+    - name: Test
       working-directory: ${{runner.workspace}}/build
-      run: cmake --build .
+      run: GTEST_OUTPUT=xml:test-results/ GTEST_COLOR=1 ctest -V
       
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - name: Upload test results
+      uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: test_results_xml
+        path: ${{runner.workspace}}/build/test-results/**/*.xml
